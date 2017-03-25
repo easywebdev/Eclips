@@ -1,0 +1,13 @@
+
+Gotham		500
+Gotham		700
+Montserrat	400
+Montserrat	700
+FiraSans	700
+
+main font verdana 14px
+
+h1 Montserrat	700 60px
+h2 Verdana	700 40px
+h3 Montserrat	700 30px
+h4 Verdana	700 17px

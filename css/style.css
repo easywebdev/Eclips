@@ -1,0 +1,197 @@
+/* STYLE CSS */
+
+/*===== Main Styles =====*/
+body {
+
+	font-family: verdana, sans-serif;
+	/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+	*/
+	font-size: 14px;
+}
+
+.h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+	.h1_mw-505 {
+		max-width: 515px;
+	}
+
+.h2 {
+	font-family: verdana, sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.h4 {
+	font-family: verdana, sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+a, a:visited { /* порядок правил для ссылок имеет значение */
+	text-decoration: none;
+}
+a:hover {
+	text-decoration:none;
+}
+a:focus, a:active {
+	text-decoration: none;
+}
+
+.text-1 {
+	max-width: 515px;
+	font-weight: 500;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+
+.button, .button:hover, .button:focus, .button:active, .button:visited {
+	color: #ffffff;
+	font-size: 16px;
+	padding: 10px 20px;
+	background: #a100ff;
+	border-radius: 5px;
+}
+	.button span {
+		margin-left: 25px;
+	}
+	.button:hover {
+		box-shadow: 0 0 3px 3px rgba(60,8,107,0.2);
+		transition: all 0.3s;
+	}
+/*=====*/
+
+/*===== Structure blocks =====*/
+.s-header {
+	min-height: 937px;
+	padding-top: 75px;
+	box-sizing: border-box;
+	background-color: #a100ff;
+	background-image: url(../images/bg-header.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	background: gray;
+}
+/*=====*/
+
+/*===== Layout Blocks & Elements =====*/
+.block {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	justify-content: space-between;
+}
+	.block_vac {
+		align-items: center;
+	}
+	.block_mb-190 {
+		margin-bottom: 190px;
+	}
+
+.block__item {
+	background: red;
+}
+/*=====*/
+
+/*===== Feader Navigation =====*/
+.nav-list {
+	font-size: 0;
+}
+
+.nav-list__item {
+	display: inline-block;
+	font-size: 14px;
+}
+	.nav-list__item_mr-40 {
+		margin-right: 40px;
+	}
+
+.nav-list__link, .nav-list__link:hover, .nav-list__link:focus, .nav-list__link:active, .nav-list__link:visited {
+	color: #ffffff;
+}
+	.nav-list__link_uderline {
+		border-bottom: solid 2px transparent;
+		padding-bottom: 27px;
+		text-transform: uppercase;
+	}
+
+	.nav-list__link_uderline:hover {
+		border-bottom: solid 2px #28c8c6;
+		transition: all 0.5s;
+	}
+/*=====*/
+
+/*===== Forms =====*/
+.form {
+	margin-bottom: 260px;
+}
+
+.select, .input {
+	height: 60px;
+	width: 285px;
+	border: 0;
+	border-radius: 3px;
+	padding: 20px !important;
+	box-sizing: border-box;
+}
+	.input_mr-15 {
+		margin-right: 15px;
+	}
+
+	.input_symbol-1 {
+		appearance: none !important;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		line-height: 1em;
+		text-indent: 0.01px; 
+  		text-overflow: '';
+  		background-image: url('../images/select.png');
+  		background-position: 90% 50%;
+  		background-repeat: no-repeat;
+	}
+
+	 select::-ms-expand {
+  		display: none;
+	}
+
+	.input_symbol-2 {
+		background-image: url('../images/email.png');
+  		background-position: 90% 50%;
+  		background-repeat: no-repeat;
+	}
+
+	.input_submit {
+		width: 65px;
+		background-image: url('../images/submit.png');
+  		background-position: center center;
+  		background-repeat: no-repeat;
+  		background-color: #28c8c6;
+  		cursor: pointer;
+
+	}
+/*=====*/
